@@ -1,0 +1,371 @@
+@media screen and (max-width: 1660px) {
+    .previous-news {
+        margin-left: 15px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 1650px) {
+    .header-logo-container {
+        display: flex;
+    }
+
+    .header {
+        margin: 0 100px;
+    }
+
+    .tickets-section {
+        margin: 144px 100px 115px 100px;
+    }
+
+    .container {
+        margin: 0 100px;
+    }
+
+    .news-updates-section {
+        margin: 0 100px;
+    }
+
+    .footer-content {
+        margin: 0 100px;
+    }
+}
+
+
+@media screen and (max-width: 1375px) {
+    .previous-news {
+        margin-left: 15px;
+    }
+}
+
+@media screen and (max-width: 1230px) {
+    .header {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+
+    ul.main-list {
+        width: 100%;
+    }
+
+    .header-logo-container {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container {
+        margin: 0 75px;
+    }
+
+    .about-discover-section {
+        margin: 40px;
+    }
+    
+    .news-updates-section {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .news-updates-content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .last-news {
+        max-width: 630px;
+        width: 100%;
+    }
+
+    .previous-news {
+        margin: 50px 0 0 0;
+    }
+}
+
+
+@media screen and (max-width: 1120px) {
+    .tickets-section {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tickets-item1 {
+        margin-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .tickets-item1 h1 {
+        max-width: 458px;
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        font-size: 45px;
+        line-height: 110%;
+        margin-bottom: 25px;
+    }
+
+    .tickets-item1 p {
+        font-size: 22px;
+        line-height: 150%;
+        text-align: center;
+        max-width: 471px;
+        width: 100%;
+        margin: 0;
+    }
+
+    .buttons {
+        margin: 50px 0;
+    }
+
+
+    .about-section {
+        background-color: #343D33;
+        background-image: url(../img/Frame.png);
+        background-repeat: no-repeat;
+        background-position: right bottom;
+    }
+
+    .container {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-item {
+        flex-direction: column;
+        align-items: flex-start;
+        max-width: 534px;
+        width: 100%;
+        padding: 0;
+    }
+
+    .about-discover-section {
+        max-width: 417px;
+        width: 100%;
+        margin: 40px 0 0 0;
+    }
+
+    .about-item2 img{
+        max-width: 534px;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+}
+
+
+@media screen and (max-width: 780px) {
+    ul.main-list {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container {
+        margin: 0 25px;
+    }
+
+    .news-updates-section {
+        align-items: flex-start;
+        margin: 0 25px;
+    }
+
+    .footer-content {
+        margin: 0 50px 0 25px;
+    }
+} 
+
+@media screen and (max-width: 650px) {
+    .tickets-item1 h1 {
+        font-size: 34px;
+        line-height: 110%;
+        max-width: 316px;
+        width: 100%;
+        
+    }
+
+    .about-item p {
+        font-size: 20px;
+        line-height: 150%;
+        width: 344px;
+    }
+
+
+    .news-updates-section {
+        margin: 0 50px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-content-item {
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+    .footer-content-item2 {
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+    .footer-content-item3 {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .tickets-item1 h1 {
+        font-size: 34px;
+        line-height: 110%;
+    }
+
+    .tickets-item1 p {
+        font-size: 20px;
+        line-height: 150%;
+        text-align: center;
+    }
+
+    .buttons .second-btn {
+        margin: 20px 0 0 0;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tickets-item2 img {
+        width: 254px;
+    }
+
+    .news-updates-section {
+        margin: 0 20px;
+    }
+
+
+    .about-item {
+        align-items: center;
+    }
+
+    .about-item img{
+        max-width: 344px;
+        width: 100%;
+        padding: 0;
+    }
+
+    .about-discover-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 344px;
+        width: 100%;
+        margin: 40px 0 0 0;
+    }
+
+    .about-discover-section h2 {
+        font-size: 34px;
+        line-height: 110%;
+        text-align: center;
+    }
+
+    .about-discover-section p {
+        font-size: 16px;
+        line-height: 150%;
+        text-align: center;
+    }
+
+    .about-item2 img{
+        max-width: 344px;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .news-updates-section {
+        align-items: center;
+        margin: 0;
+    }
+
+    .last-news {
+        max-width: 343px;
+        width: 100%;
+    }
+
+    .last-news-text {
+        text-align: center;   
+    }
+
+
+    .previous-news {
+        max-width: 343px;
+        width: 100%;
+    }
+
+    .previous-news-content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .previous-news-content img {
+        max-width: 236px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .previous-news-item-text {
+        margin: 0;
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width: 375px) {
+    .buttons .first-btn {
+        padding: 20px 20px;
+        text-align: center;
+    }
+
+    .buttons .second-btn {
+        padding: 20px 20px;
+        text-align: center;
+    }
+    
+    .tickets-section {
+        margin: 144px 0 115px 0;
+    }
+
+    .tickets-item1 p {
+        max-width: 343px;
+        width: 100%;
+    }
+
+    .tickets-item2 img {
+        max-width: 254px;
+        width: 100%;
+    }
+
+
+    .about-discover-section a {
+        text-align: center;
+    }
+
+    .section-title h2 {
+        font-size: 34px;
+        line-height: 110%;
+        text-align: center;
+    }
+
+    
+}
