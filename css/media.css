@@ -33,6 +33,13 @@
     }
 }
 
+@media screen and (max-width: 1415px) {
+    .main-list li:nth-child(5):hover {
+        border-right: none;
+        padding: 15px 12px 15px 10px;
+    }
+}
+
 
 @media screen and (max-width: 1375px) {
     .previous-news {
@@ -163,10 +170,62 @@
 
 
 @media screen and (max-width: 780px) {
+    .header {
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0 20px;
+    }
+
+    .tablet-menu {
+        display: block;
+    }
+
+    .menu-title {
+        display: block;
+        font-family: 'Libre Baskerville';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 34px;
+        line-height: 110%;
+        text-align: center;
+        color: #FFFFFF;
+        margin: 40px 0 100px 0;
+
+    }
+
+    .main-nav {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #475F45 url(../img/Frame.png) no-repeat right -250px bottom -100px;
+    }
+
     ul.main-list {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        
+    }
+
+    .main-list li {
+        color: #FFFFFF;
+        border: 2px solid #475F45;
+    }
+
+    .main-list li:hover {
+        border: 2px solid #FFFFFF;
+    }
+
+    .main-list li:last-child {
+        border: 2px solid #FFFFFF;
+    }
+
+
+    .tickets-section {
+        margin: 115px 100px;
     }
 
     .container {
