@@ -176,7 +176,7 @@
         margin: 0 20px;
     }
 
-    .tablet-menu {
+    .mobile-menu {
         display: block;
     }
 
@@ -219,10 +219,10 @@
         border: 2px solid #FFFFFF;
     }
 
-    .main-list li:last-child {
-        border: 2px solid #FFFFFF;
+    .main-list li:nth-child(5):hover {
+        border-right: 2px solid #FFFFFF;
+        padding: 15px 12px 15px 10px;
     }
-
 
     .tickets-section {
         margin: 115px 100px;

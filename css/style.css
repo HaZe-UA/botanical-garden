@@ -63,6 +63,18 @@ ul.main-list {
     background-color: #475F45;
 }
 
+.mobile-menu {
+    display: none;
+    width: 24px;
+    height: 24px;
+    background: #FFFFFF;
+    border: none;
+}
+
+.menu-title {
+    display: none;
+}
+
 .tickets-section {
     display: flex;
     justify-content: space-between;
@@ -377,14 +389,3 @@ footer span {
     color: #fff;
 }
 
-.tablet-menu {
-    display: none;
-    width: 24px;
-    height: 24px;
-    background: #FFFFFF;
-    border: none;
-}
-
-.menu-title {
-    display: none;
-}
